@@ -1,0 +1,27 @@
+# Bağımlılıklar (repo zero-dep — normalde oluşmaz ama garanti)
+node_modules/
+bun_modules/
+
+# Ortam / gizli dosyalar
+.env
+.env.*
+!.env.example
+
+# Loglar
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Çalışma zamanı / IDE / OS
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.tsbuildinfo
+
+# Geçici dosyalar
+*.tmp
+.cache/

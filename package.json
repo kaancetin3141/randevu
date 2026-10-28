@@ -1,0 +1,10 @@
+{
+  "name": "randevu",
+  "version": "1.0.0",
+  "description": "GNC Randevu — işletmeler için müşteri randevu platformu",
+  "private": true,
+  "scripts": {
+    "dev": "CRM_BASE_URL=http://localhost:3001 bun --hot index.ts",
+    "start": "bun index.ts"
+  }
+}
